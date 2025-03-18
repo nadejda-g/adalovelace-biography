@@ -1,0 +1,125 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    padding: 0 300px;
+}
+
+h2 {
+    font-family: "Proza Libre", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+}
+
+.about-me-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.ada-image {
+    border-radius: 20px;
+    height: 320px;
+    /*transform: rotate(0deg) ;*/
+}
+
+#projects {
+    padding: 10px 0;
+}
+
+#projects ul {
+    list-style: none;
+}
+
+#projects ul li button{
+    border: none;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.arrow-sign {
+    margin-right: 10px;
+}
+
+#skills {
+    padding: 10px 0;
+}
+
+.skills-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+}
+
+#contact {
+    padding: 10px 0;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.contact-container p {
+    margin-top: 0;
+}
+
+.contact-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.aligned-svg {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.made-with-love p {
+    margin: 0;
+}
