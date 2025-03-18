@@ -44,7 +44,7 @@ nav li a {
 
 .ada-image {
     border-radius: 20px;
-    height: 320px;
+    /*height: 320px;*/
     /*transform: rotate(0deg) ;*/
 }
 
@@ -123,3 +123,27 @@ footer {
 .made-with-love p {
     margin: 0;
 }
+
+@media screen and (max-width: 1125px) {
+    .about-me-container {
+        flex-direction: column;
+    }
+    body {
+        padding: 0 10px;
+    }
+
+    .skills-container ul {
+        gap: 25px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        padding: 0;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
