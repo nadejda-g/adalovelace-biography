@@ -145,5 +145,24 @@ footer {
         justify-content: space-around;
         width: 100%;
     }
+
+    #program-picture {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #engine-machine {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #ada-language {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #projects ul {
+        padding: 0 20px;
+    }
 }
 
